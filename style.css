@@ -1,0 +1,58 @@
+#element1{
+  width: 80%;
+  height: 20px;
+  background: rgb(46,204,113);
+  float: left;
+}
+#element2{
+  width: 20%;
+  height: 20px;
+  background: rgb(41,128,185);
+  float: left;
+}
+#element3{
+  width: 33.33%;
+  height: 80px;
+  background: rgb(231,76,60);
+  float: left;
+}
+#element4{
+  width: 33.33%;
+  height: 40px;
+  background: rgb(230,126,34);
+  float: left;
+}
+#element5{
+  width: 33.33%;
+  height: 40px;
+  background: rgb(149,165,166);
+  float: left;
+}
+#element6
+{
+  width: 22.22%;
+  height: 40px;
+  background: rgb(243,156,18);
+  float: left;
+}
+#element7
+{
+  width: 22.22%;
+  height: 40px;
+  background: rgb(22,160,133);
+  float: left;
+}
+#element8
+{
+  width: 22.22%;
+  height: 40px;
+  background: rgb(211,84,0);
+  float: left;
+}
+#element9
+{
+  width: 100%;
+  height: 100px;
+  background : rgb(44,62,80);
+  float: left;
+}
