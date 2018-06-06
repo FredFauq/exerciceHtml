@@ -1,0 +1,28 @@
+#identite
+{
+  width: 100%;
+  height: 100%;
+  background : rgb(37,116,109);
+  float: left;
+}
+#section1
+{
+  width: 100%;
+  height: 100%;
+  background : rgb(37,116,109);
+  float: left;
+}
+#section2
+{
+  width: 100%;
+  height: 100%;
+  background : rgb(154,18,179);
+  float: left;
+}
+#section3
+{
+  width: 100%;
+  height: 100%;
+  background : rgb(219,10,91);
+  float: left;
+}
