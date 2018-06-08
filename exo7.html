@@ -1,30 +1,23 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html lang="fr">
 <head>
   <meta charset="utf-8" />
   <title>Exercice 7</title>
 </head>
 <link rel="stylesheet" href="style7.css" />
 <body>
+  <form method="post" action="traitement.php">
   <fieldset id="section1">
     <legend id="legende1">Votre identité</legend>
     <ol>
-      <li>
-        <form method="post" action="traitement.php">
-          <label for="nom">Nom </label>
-          <input type="text" name="Nom" id="nom" placeholder="nom" />
-        </form>
-      </li>
-      <li><form method="post" action="traitement.php">
-        <label for="prenom">Prénom </label>
+      <li><label for="Nom">Nom :</label><input type="text" name="Nom" id="nom" placeholder="nom" />
+        </li>
+        <label for="prenom">Prénom :</label>
         <input type="text" name="prenom" id="prenom" placeholder="prenom" />
-      </form>
     </li>
     <li>
-      <form method="post" action="traitement.php">
-        <label for="adresse mail">Adresse mail </label>
+        <label for="adresse mail">Adresse mail :</label>
         <input type="text" name="adresse mail" id="adresse mail" placeholder="Adresse mail" />
-      </form>
     </li>
   </ol>
 </fieldset>
@@ -32,55 +25,48 @@
   <legend id="legende2">Adresse de livraison</legend>
   <ol>
     <li>
-      <form method="post" action="traitement.php">
-        <label for="adresse">Adresse </label>
+        <label for="adresse">Adresse :</label>
         <textarea name="adresse" rows="4" cols="20" id="adresse"></textarea>
-      </form>
     </li>
     <li>
-      <form method="post" action="traitement.php">
-        <label for="code postal">Code Postal </label>
+        <label for="code postal">Code Postal :</label>
         <input type="text" name="code postal" id="code postal" placeholder="Code Postal" />
-      </form>
     </li>
-    <li><form method="post" action="traitement.php">
-      <label for="ville">Ville </label>
+    <li>
+      <label for="ville">Ville :</label>
       <input type="text" name="ville" id="ville" placeholder="Ville" />
     </p>
-  </form>
 </li>
 </ol>
 </fieldset>
 <fieldset id="section3">
   <legend id="legende3">Informations de règlement</legend>
   <ol>
-    <li>Type de carte bancaire : <br />
-      <input type="radio" name="visa" value="visa" id="visa" />
-      <label for="visa">visa</label><br />
-      <input type="radio" name="mastercard" value="mastercard" id="mastercard" />
-      <label for="mastercard">Mastercard</label>
+    <li><p>Type de carte bancaire : </p>
+      <ul>
+      <li><input type="radio" name="visa" value="visa" id="visa" />
+      <label for="visa">visa</label></li>
+      <li><input type="radio" name="mastercard" value="mastercard" id="mastercard" />
+      <label for="mastercard">Mastercard</label></li>
+      </ul>
     </li>
   </form>
   <li>
-    <form method="post" action="traitement.php">
-      <label for="numero carte">Numéro de carte </label>
+      <label for="numero carte">Numéro de carte :</label>
       <input type="text" name="numero carte" id="numero carte" placeholder="Numéro de carte"
-    </form>
   </li>
   <li>
-    <form method="post" action="traitement.php">
-      <label for="code securite">Code de sécurité </label>
+      <label for="code securite">Code de sécurité :</label>
       <input type="text" name="code securite" id="code securite" placeholder="Code de sécurité" />
     </form>
   </li>
   <li>
-    <form method="post" action="traitement.php">
-      <label for="code securite">Nom du titulaire </label>
+      <label for="code securite">Nom du titulaire :</label>
       <input type="text" name="nom titulaire" id="nom titulaire" placeholder="Nom du titulaire" />
-    </form>
   </li>
 </ol>
 </fieldset>
+</form>
 <input type="submit" value="J'achète !" />
 </body>
 </html>
