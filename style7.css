@@ -1,28 +1,24 @@
-#identite
+#legende1
 {
-  width: 100%;
-  height: 100%;
-  background : rgb(37,116,109);
-  float: left;
+  background-color: rgb(37,116,109);
 }
 #section1
 {
-  width: 100%;
-  height: 100%;
-  background : rgb(37,116,109);
-  float: left;
+  background-color: rgb(37,116,109);
+}
+#legende2
+{
+  background-color: rgb(154,18,179);
 }
 #section2
 {
-  width: 100%;
-  height: 100%;
-  background : rgb(154,18,179);
-  float: left;
+  background-color: rgb(154,18,179);
+}
+#legende3
+{
+  background-color: rgb(219,10,91);
 }
 #section3
 {
-  width: 100%;
-  height: 100%;
-  background : rgb(219,10,91);
-  float: left;
+  background-color: rgb(219,10,91);
 }
